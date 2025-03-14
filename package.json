@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.2.1",
+    "@astrojs/vercel": "^8.1.2",
     "@fontsource-variable/outfit": "^5.2.5",
     "@getbrevo/brevo": "^2.2.0",
     "@radix-ui/react-slot": "^1.1.2",
