@@ -21,6 +21,8 @@ export const ModalDetails = ({ selectedService, isOpen, setOpen }: Props) => {
         content: {
           top: "50%",
           left: "50%",
+          width: "auto",
+          height: "auto",
 
           marginRight: "-50%",
           transform: "translate(-50%, -50%)",
@@ -33,7 +35,7 @@ export const ModalDetails = ({ selectedService, isOpen, setOpen }: Props) => {
       <div className="relative h-[150px] sm:h-[200px]">
         {/* <div className="absolute end-0 p-0  bg-red-400"> */}
         <button
-          className="absolute cursor-pointer end-0 text-slate-500 p-3 z-30"
+          className="absolute cursor-pointer end-0 text-white p-3 z-30"
           onClick={() => setOpen(false)}
         >
           <X />

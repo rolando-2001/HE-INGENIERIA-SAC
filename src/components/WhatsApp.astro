@@ -61,25 +61,21 @@
   class="whatsApp"
   target="_blank"
 >
-
   <img src="/WhatsApp.webp" alt="WhatsApp" width="50" height="50" />
   <span id="text-w"></span>
-  
 </a>
 <script>
   // @ts-ignore
   import Typewriter from "typewriter-effect/dist/core";
 
   new Typewriter("#text-w", {
-  autoStart: true,
-  loop: true,
-  delay: 75,
-  cursor: "",
-})
-.pauseFor(2000)
-.typeString("Déjanos tus <br> comentarios")
-.pauseFor(1000)
-.deleteAll()
-.start();
-
+    autoStart: true,
+    loop: true,
+    delay: 75,
+  })
+    .pauseFor(2000)
+    .typeString("Déjanos tus <br> comentarios")
+    .pauseFor(1000)
+    .deleteAll()
+    .start();
 </script>
